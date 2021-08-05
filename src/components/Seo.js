@@ -5,7 +5,7 @@ function Seo({ title }) {
   return (
     <Helmet>
       <meta charSet="utf-8" />
-      <title>{title}</title>
+      <title>{title ? title : "My Portfolio Website | Naufal Akbar Nugroho"}</title>
     </Helmet>
   );
 }
