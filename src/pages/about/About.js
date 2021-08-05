@@ -8,12 +8,12 @@ function About() {
   const RenderAbout = () => {
     return (
       <React.Fragment>
-        <section class="text-gray-400 bg-gray-900 body-font">
-          <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Profile" src={Profile} />
-            <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-justify">
-              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
-              <p class="mb-8 leading-relaxed">
+        <section className="text-gray-400 bg-gray-900 body-font">
+          <div className="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+            <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Profile" src={Profile} />
+            <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-justify">
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
+              <p className="mb-8 leading-relaxed">
                 Hi, I am <strong>Naufal Akbar Nugroho</strong>. Or you can call me Akbar. I was born on July 15, 2004 in Malang City, East Java Province, Indonesia. I am one of the students of the 29th generation SMK Telkom Malang. SMK
                 Telkom Malang is school technology. Since I entered SMK Telkom Malang, I become very interested in Graphic Design and Website Development.
                 <br />
@@ -21,8 +21,14 @@ function About() {
                 Development. I am very grateful to be part of the SMK Telkom Malang family, because I understand about the world of technology. For now I am exploring the programming languages Java, HTML, CSS, Vanilla JavaScript, Node.js,
                 React, and many more.
               </p>
-              <div class="flex justify-center">
-                <button class="inline-flex mx-4 text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg"><a href="https://www.instagram.com/kbrnugroho/">Download CV</a></button>
+              <div className="flex justify-center">
+                <a
+                  href="https://drive.google.com/file/d/1CIpdz_h3xpgyO-US0iXu_-qCKMF2ZjSH/view?usp=sharing"
+                  target="_blank"
+                  className="inline-flex mx-4 text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg"
+                >
+                  Download CV
+                </a>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start items-center">
                   <a className="text-gray-400" href="https://github.com/nuflakbrr" target="_blank">
                     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
@@ -42,7 +48,7 @@ function About() {
                     </svg>
                   </a>
                   <a className="ml-3 text-gray-400" href="mailto:naufalakbar378@gmail.com" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>

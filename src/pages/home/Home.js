@@ -14,7 +14,7 @@ function Home() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                 Hi!
-                <br className="hidden lg:inline-block" />I am Naufal Akbar Nugroho
+                <br className="hidden lg:inline-block" />I am <strong>Naufal Akbar Nugroho</strong>
               </h1>
               <p className="mb-8 leading-relaxed text-justify">
                 Or you can call me Akbar. I was born on July 15, 2004 in Malang City, East Java Province, Indonesia. I am one of the students of the 29th generation SMK Telkom Malang. SMK Telkom Malang is school technology. Since I entered
