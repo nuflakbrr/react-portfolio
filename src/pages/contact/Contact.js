@@ -109,7 +109,7 @@ function Contact() {
   };
   return (
     <>
-      <Seo title={"Lets Talk! | Naufal Akbar Nugroho"} />
+      <Seo title={"Lets Talk | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderContact />
     </>

@@ -16,7 +16,7 @@ function Home() {
                 Hi!
                 <br className="hidden lg:inline-block" />I am Naufal Akbar Nugroho
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed text-justify">
                 Or you can call me Akbar. I was born on July 15, 2004 in Malang City, East Java Province, Indonesia. I am one of the students of the 29th generation SMK Telkom Malang. SMK Telkom Malang is school technology. Since I entered
                 SMK Telkom Malang, I become very interested in Graphic Design and Website Development.
               </p>
@@ -28,7 +28,7 @@ function Home() {
             </div>
 
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <img className="object-cover object-center rounded Logo" alt="hero" src={Profile} />
+              <img className="object-cover object-center rounded Logo" alt="Profile" src={Profile} />
             </div>
           </div>
         </section>
