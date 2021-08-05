@@ -18,8 +18,8 @@ function Navbars() {
           <Link to="/Skills" className="mr-5 text-white hover:text-gray-400">
             Skills
           </Link>
-          <Link to="/Work" className="mr-5 text-white hover:text-gray-400">
-            Work
+          <Link to="/Project" className="mr-5 text-white hover:text-gray-400">
+            Project
           </Link>
           <Link to="/Contact" className="mr-5 text-white hover:text-gray-400">
             Contact

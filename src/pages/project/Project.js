@@ -3,8 +3,8 @@ import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 
-function Work() {
-  const RenderWork = () => {
+function Project() {
+  const RenderProject = () => {
     return (
       <React.Fragment>
         <section class="text-gray-400 bg-gray-900 body-font">
@@ -84,10 +84,10 @@ function Work() {
     <>
       <Seo title={"Recently Project | Naufal Akbar Nugroho"} />
       <Navbars />
-      <RenderWork />
+      <RenderProject />
       <Footer />
     </>
   );
 }
 
-export default Work;
+export default Project;

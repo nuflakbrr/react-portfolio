@@ -3,6 +3,7 @@ import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 import { Link } from "react-router-dom";
+import Profile from "../images/profile.jpg";
 
 function Home() {
   const RenderHero = () => {
@@ -27,7 +28,7 @@ function Home() {
             </div>
 
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+              <img className="object-cover object-center rounded Logo" alt="hero" src={Profile} />
             </div>
           </div>
         </section>
