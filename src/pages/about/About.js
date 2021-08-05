@@ -22,11 +22,7 @@ function About() {
                 React, and many more.
               </p>
               <div className="flex justify-center">
-                <a
-                  href="https://drive.google.com/file/d/1CIpdz_h3xpgyO-US0iXu_-qCKMF2ZjSH/view?usp=sharing"
-                  target="_blank"
-                  className="inline-flex mx-4 text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg"
-                >
+                <a href="https://drive.google.com/file/d/1CIpdz_h3xpgyO-US0iXu_-qCKMF2ZjSH/view?usp=sharing" className="inline-flex mx-4 text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
                   Download CV
                 </a>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start items-center">
