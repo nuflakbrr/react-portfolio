@@ -1,6 +1,6 @@
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbars from "./components/Navbars";
-import "./App.css";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
@@ -12,11 +12,11 @@ function App() {
     <Router>
       <Switch>
         <Navbars />
-        <Route path="/" exact component={Home} />
-        <Route path="/About" exact component={About} />
-        <Route path="/Skills" exact component={Skills} />
-        <Route path="/Work" exact component={Work} />
-        <Route path="/Contact" exact component={Contact} />
+        <Route path="/" exact components={Home} />
+        <Route path="/About" exact components={About} />
+        <Route path="/Skills" exact components={Skills} />
+        <Route path="/Work" exact componens={Work} />
+        <Route path="/Contact" exact components={Contact} />
       </Switch>
     </Router>
   );

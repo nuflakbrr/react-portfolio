@@ -1,7 +1,13 @@
 import React from "react";
+import Seo from "../../components/Seo";
 
-const About = () => {
-  return <div>about</div>;
-};
+function About() {
+  return (
+    <div>
+      <Seo title={"About Me | Naufal Akbar Nugroho"} />
+      about me
+    </div>
+  );
+}
 
 export default About;

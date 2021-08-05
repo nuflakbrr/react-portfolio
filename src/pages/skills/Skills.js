@@ -1,7 +1,13 @@
 import React from "react";
+import Seo from "../../components/Seo";
 
-const Skills = () => {
-  return <div>about</div>;
-};
+function Skills() {
+  return (
+    <div>
+      <Seo title={"Skills | Naufal Akbar Nugroho"} />
+      skills
+    </div>
+  );
+}
 
 export default Skills;

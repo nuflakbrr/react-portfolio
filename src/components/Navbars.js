@@ -1,63 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Navbars = () => {
+function Navbars() {
   return (
-    <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-green-500 mb-3">
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-          <div className="flex flex-wrap justify-center">
-            <div className="w-9 mr-1"></div>
-            <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
-              Republic City
-            </a>
-          </div>
-        </div>
-        <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
-          <ul className="flex flex-col lg:flex-row list-none ml-auto">
-            <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Home">
-                Beranda
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Forum">
-                Forum
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Donasi">
-                Donasi
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Status">
-                Status
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Statistik">
-                Statistik
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <button
-                class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                type="button"
-                href="/Login"
-              >
-                LOGIN
-              </button>
-            </li>
-          </ul>
-        </div>
+    <header className="text-gray-600 body-font">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <Link to="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <span className="ml-3 text-xl">Naufal Akbar</span>
+        </Link>
+        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <Link to="/" className="mr-5 hover:text-gray-900">
+            Home
+          </Link>
+          <Link to="/About" className="mr-5 hover:text-gray-900">
+            About
+          </Link>
+          <Link to="/Skills" className="mr-5 hover:text-gray-900">
+            Skills
+          </Link>
+          <Link to="/Work" className="mr-5 hover:text-gray-900">
+            Work
+          </Link>
+          <Link to="/Contact" className="mr-5 hover:text-gray-900">
+            Contact
+          </Link>
+        </nav>
       </div>
-    </nav>
+    </header>
   );
-};
+}
 
 export default Navbars;
