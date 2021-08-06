@@ -16,7 +16,7 @@ function App() {
         <Route path="/skills" exact component={Skills} />
         <Route path="/project" exact component={Project} />
         <Route path="/contact" exact component={Contact} />
-        <Route path="/Project/music-player" exact component={MusicPlayer} />
+        <Route path="/project/music-player" exact component={MusicPlayer} />
       </Switch>
     </Router>
   );
