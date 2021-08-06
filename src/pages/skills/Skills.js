@@ -223,7 +223,7 @@ function Skills() {
                 <div className="h-full flex flex-col items-center text-center">
                   <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200" />
                   <div className="w-full">
-                    <h2 className="title-font font-medium text-lg text-white">FIGMA</h2>
+                    <h2 className="title-font font-medium text-lg text-white">Figma</h2>
                     <span className="inline-flex">
                       <a className="text-gray-700">
                         <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
