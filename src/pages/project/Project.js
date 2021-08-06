@@ -2,6 +2,7 @@ import React from "react";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
+import { Link } from "react-router-dom";
 
 function Project() {
   const RenderProject = () => {
@@ -19,15 +20,15 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 01</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">Music Player</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <Link to="/Project/music-player" class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -38,7 +39,7 @@ function Project() {
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 02</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <a class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -55,7 +56,7 @@ function Project() {
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 03</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <a class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -72,7 +73,7 @@ function Project() {
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 04</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Neptune</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <a class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -89,7 +90,7 @@ function Project() {
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 05</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <a class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -106,7 +107,7 @@ function Project() {
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 06</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
                     <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    <a class="text-indigo-400 inline-flex items-center mt-5">
+                    <a class="text-blue-600 inline-flex items-center mt-5">
                       Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>

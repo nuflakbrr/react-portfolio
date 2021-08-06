@@ -5,6 +5,7 @@ import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
 import Contact from "./pages/contact/Contact";
 import Project from "./pages/project/Project";
+import MusicPlayer from "./pages/project/project-details/MusicPlayer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/skills" exact component={Skills} />
         <Route path="/project" exact component={Project} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="/Project/music-player" exact component={MusicPlayer} />
       </Switch>
     </Router>
   );
