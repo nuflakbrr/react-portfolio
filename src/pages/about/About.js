@@ -3,6 +3,7 @@ import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 import Profile from "../images/profile.jpg";
+import { Link } from "react-router-dom";
 
 function About() {
   const RenderAbout = () => {
@@ -19,7 +20,10 @@ function About() {
                 <br />
                 At SMK Telkom Malang there are many things I can do, such as character education, discipline, and many other things. Apart from that, I also studied Graphic Design, some programming languages, Website Design, and Website
                 Development. I am very grateful to be part of the SMK Telkom Malang family, because I understand about the world of technology. For now I am exploring the programming languages Java, HTML, CSS, Vanilla JavaScript, Node.js,
-                React, and many more.
+                React, and{" "}
+                <Link to="/Skills" className="text-blue-400 hover:text-blue-600">
+                  many more.
+                </Link>
               </p>
               <div className="flex justify-center">
                 <a

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
@@ -24,7 +25,9 @@ function MusicPlayer() {
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-white text-lg">Naufal Akbar Nugroho</h2>
                     <div class="w-12 h-1 bg-blue-600 rounded mt-2 mb-4"></div>
-                    {/* <p class="text-base text-gray-400">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p> */}
+                    <Link to="/Project" class="text-base text-blue-600 hover:text-blue-400">
+                      Back to Project
+                    </Link>
                   </div>
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-justify sm:text-justify">
@@ -33,10 +36,10 @@ function MusicPlayer() {
                     bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo
                     intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.
                   </p>
-                  <a href="https://github.com/nuflakbrr/music-player" target="_blank" class="text-blue-600 inline-flex items-center">
+                  <a href="https://github.com/nuflakbrr/music-player" target="_blank" class="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <a href="https://nuflakbrr.github.io/music-player/" target="_blank" class="text-blue-600 inline-flex items-center ml-4">
+                  <a href="https://nuflakbrr.github.io/music-player/" target="_blank" class="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
                   </a>
                 </div>
