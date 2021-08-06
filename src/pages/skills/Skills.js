@@ -2,6 +2,19 @@ import React from "react";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
+import Java from "../images/ski-java.png";
+import HTML from "../images/ski-html.png";
+import CSS from "../images/ski-css.png";
+import JS from "../images/ski-js.png";
+import BS from "../images/ski-boot.png";
+import Sass from "../images/ski-sass.png";
+import GIT from "../images/ski-git.png";
+import GITHUB from "../images/ski-gith.png";
+import Figma from "../images/ski-fig.png";
+import Node from "../images/ski-node.png";
+import react from "../images/ski-react.png";
+import PHP from "../images/ski-php.png";
+import SQL from "../images/ski-sql.png";
 
 function Skills() {
   const RenderSkills = () => {
@@ -17,7 +30,7 @@ function Skills() {
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 {/* Knowledge */}
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Java} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">Java</h2>
                     <span className="inline-flex">
@@ -42,7 +55,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={HTML} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">HTML</h2>
                     <span className="inline-flex">
@@ -67,7 +80,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={CSS} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">CSS</h2>
                     <span className="inline-flex">
@@ -92,7 +105,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={JS} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">JavaScript</h2>
                     <span className="inline-flex">
@@ -119,7 +132,7 @@ function Skills() {
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={BS} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">Bootstrap</h2>
                     <span className="inline-flex">
@@ -144,7 +157,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Sass} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">SASS</h2>
                     <span className="inline-flex">
@@ -169,7 +182,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={GIT} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">GIT</h2>
                     <span className="inline-flex">
@@ -194,7 +207,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={GITHUB} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">GITHUB</h2>
                     <span className="inline-flex">
@@ -221,7 +234,7 @@ function Skills() {
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Figma} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">Figma</h2>
                     <span className="inline-flex">
@@ -251,7 +264,7 @@ function Skills() {
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Node} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">Node.js</h2>
                     <span className="inline-flex">
@@ -276,7 +289,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={react} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">React.js</h2>
                     <span className="inline-flex">
@@ -301,7 +314,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={PHP} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">PHP</h2>
                     <span className="inline-flex">
@@ -326,7 +339,7 @@ function Skills() {
               </div>
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
-                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203" />
+                  <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={SQL} />
                   <div className="w-full">
                     <h2 className="title-font font-medium text-lg text-white">MySQL</h2>
                     <span className="inline-flex">
