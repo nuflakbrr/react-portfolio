@@ -25,7 +25,7 @@ function RCRPLanding() {
                   <div class="flex flex-col items-center text-center justify-center">
                     <h2 class="font-medium title-font mt-4 text-white text-lg">Naufal Akbar Nugroho</h2>
                     <div class="w-12 h-1 bg-blue-600 rounded mt-2 mb-4"></div>
-                    <Link to="/Project" class="text-base text-blue-600 hover:text-blue-400">
+                    <Link to="/project" class="text-base text-blue-600 hover:text-blue-400">
                       Back to Project
                     </Link>
                   </div>
@@ -52,7 +52,7 @@ function RCRPLanding() {
   };
   return (
     <>
-      <Seo title={"Music Player | Naufal Akbar Nugroho"} />
+      <Seo title={"RCRP Landing Page | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderRCRP />
       <Footer />
