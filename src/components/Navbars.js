@@ -12,16 +12,16 @@ function Navbars() {
           <Link to="/" className="mr-5 text-white hover:text-gray-400">
             Home
           </Link>
-          <Link to="/About" className="mr-5 text-white hover:text-gray-400">
+          <Link to="/about" className="mr-5 text-white hover:text-gray-400">
             About
           </Link>
-          <Link to="/Skills" className="mr-5 text-white hover:text-gray-400">
+          <Link to="/skill" className="mr-5 text-white hover:text-gray-400">
             Skills
           </Link>
-          <Link to="/Project" className="mr-5 text-white hover:text-gray-400">
+          <Link to="/project" className="mr-5 text-white hover:text-gray-400">
             Project
           </Link>
-          <Link to="/Contact" className="mr-5 text-white hover:text-gray-400">
+          <Link to="/contact" className="mr-5 text-white hover:text-gray-400">
             Contact
           </Link>
         </nav>

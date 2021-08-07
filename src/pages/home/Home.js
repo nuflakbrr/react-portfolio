@@ -21,7 +21,7 @@ function Home() {
                 SMK Telkom Malang, I become very interested in Graphic Design and Website Development.
               </p>
               <div className="flex justify-center">
-                <Link to="/About" className="inline-flex text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
+                <Link to="/about" className="inline-flex text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
                   Learn More
                 </Link>
               </div>
