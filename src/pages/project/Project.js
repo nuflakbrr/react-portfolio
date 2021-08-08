@@ -20,7 +20,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 01</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">Music Player</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">Music Player</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/music-player" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
@@ -37,7 +37,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 02</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">Face Recognition</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">Face Recognition</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/face-recognition" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
@@ -54,7 +54,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 03</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">3D Card Animation</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">3D Card Animation</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/3d-card-animation" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
@@ -71,7 +71,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 04</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">Zoom Clone</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">Zoom Clone</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/zoom-clone" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
@@ -88,7 +88,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 05</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">RCRP Landing Page</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">RCRP Landing Page</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/rcrp-landing-page" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
@@ -105,7 +105,7 @@ function Project() {
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 06</h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">Pilketos SMK Telkom Malang</h1>
+                    <h1 className="title-font text-md font-medium text-white mb-3">E-Voting SMK Telkom Malang</h1>
                     <p className="leading-relaxed">Deskripsi.</p>
                     <Link to="/project/pilketos-smktelkom" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                       Learn More
