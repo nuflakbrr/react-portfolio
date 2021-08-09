@@ -4,14 +4,14 @@ import Navbars from "../../components/Navbars";
 import Swal from "sweetalert2";
 
 function Contact() {
-  const Swal = require("sweetalert2");
-
-  Swal.fire({
-    title: "Thank You!",
-    text: "Your message will be deliver soon!",
-    icon: "success",
-    confirmButtonColor: "#1E40AF",
-  });
+  const HandleSubmit = () => {
+    Swal.fire({
+      title: "Thank You!",
+      text: "Your message will be deliver soon!",
+      icon: "success",
+      confirmButtonColor: "#1E40AF",
+    });
+  };
 
   const RenderContact = () => {
     return (
@@ -76,7 +76,9 @@ function Contact() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">Submit!</button>
+                  <button onClick={HandleSubmit} className="flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
+                    Submit!
+                  </button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                   <a className="text-blue-400" href="mailto:naufalakbar378@gmail.com">
