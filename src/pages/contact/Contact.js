@@ -1,8 +1,18 @@
 import React from "react";
 import Seo from "../../components/Seo";
 import Navbars from "../../components/Navbars";
+import Swal from "sweetalert2";
 
 function Contact() {
+  const Swal = require("sweetalert2");
+
+  Swal.fire({
+    title: "Thank You!",
+    text: "Your message will be deliver soon!",
+    icon: "success",
+    confirmButtonColor: "#1E40AF",
+  });
+
   const RenderContact = () => {
     return (
       <React.Fragment>
