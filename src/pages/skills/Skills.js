@@ -231,6 +231,8 @@ function Skills() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="flex flex-wrap -m-4 items-center justify-center">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
                   <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={GITHUB} />
