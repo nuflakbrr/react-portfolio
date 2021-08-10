@@ -5,12 +5,12 @@ import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
 import Contact from "./pages/contact/Contact";
 import Project from "./pages/project/Project";
-import MusicPlayer from "./pages/project/project-details/MusicPlayer";
-import FaceRecognition from "./pages/project/project-details/FaceRecognition";
-import Card from "./pages/project/project-details/Card";
-import ZoomClone from "./pages/project/project-details/ZoomClone";
-import RCRPLanding from "./pages/project/project-details/RCRPLanding";
-import Pilketos from "./pages/project/project-details/Pilketos";
+import MusicPlayer from "./pages/project/projectdetails/MusicPlayer";
+import FaceRecognition from "./pages/project/projectdetails/FaceRecognition";
+import Card from "./pages/project/projectdetails/Card";
+import ZoomClone from "./pages/project/projectdetails/ZoomClone";
+import RCRPLanding from "./pages/project/projectdetails/RCRPLanding";
+import Pilketos from "./pages/project/projectdetails/Pilketos";
 
 function App() {
   return (
