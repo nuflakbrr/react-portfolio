@@ -15,16 +15,6 @@ function Contact() {
       confirmButtonColor: "#1E40AF",
     });
   }
-
-  // const HandleSubmit = () => {
-  //   Swal.fire({
-  //     title: "Thank You!",
-  //     text: "Your message will be deliver soon!",
-  //     icon: "success",
-  //     confirmButtonColor: "#1E40AF",
-  //   });
-  // };
-
   const RenderContact = () => {
     return (
       <React.Fragment>

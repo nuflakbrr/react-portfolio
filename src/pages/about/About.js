@@ -15,8 +15,8 @@ function About() {
             <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-justify">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
               <p className="mb-8 leading-relaxed">
-                Hi, I am <strong>Naufal Akbar Nugroho</strong>. Or you can call me Akbar. I was born on July 15, 2004 in Malang City, East Java Province, Indonesia. I am one of the students of the 29th generation SMK Telkom Malang. SMK
-                Telkom Malang is school technology. Since I entered SMK Telkom Malang, I become very interested in Graphic Design and Website Development.
+                Hi, my name is <strong>Naufal Akbar Nugroho</strong>. Or you can call me Akbar. I was born on July 15, 2004 in Malang City, East Java Province, Indonesia. I am one of the students of the 29th generation SMK Telkom Malang.
+                SMK Telkom Malang is school technology. Since I entered SMK Telkom Malang, I become very interested in Graphic Design and Website Development.
                 <br />
                 At SMK Telkom Malang there are many things I can do, such as character education, discipline, and many other things. Apart from that, I also studied Graphic Design, some programming languages, Website Design, and Website
                 Development. I am very grateful to be part of the SMK Telkom Malang family, because I understand about the world of technology. For now I am exploring the programming languages Java, HTML, CSS, Vanilla JavaScript, Node.js,
