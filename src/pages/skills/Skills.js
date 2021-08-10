@@ -27,7 +27,7 @@ function Skills() {
               <h1 className="text-2xl font-medium title-font mb-4 text-white">Knowledge & Skills</h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Here's some knowledge in few of programming languages and the tools I use.</p>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 items-center justify-center">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 {/* Knowledge */}
                 <div className="h-full flex flex-col items-center text-center">
@@ -130,7 +130,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 items-center justify-center">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
                   <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={BS} />
@@ -285,7 +285,7 @@ function Skills() {
 
             {/* Currently */}
             <h1 className="text-2xl font-medium title-font mb-4 text-white">Currently Learning Language</h1>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 items-center justify-center">
               <div className="p-4 lg:w-1/4 md:w-1/2">
                 <div className="h-full flex flex-col items-center text-center">
                   <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src={Node} />

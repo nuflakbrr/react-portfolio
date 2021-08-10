@@ -14,7 +14,7 @@ function Project() {
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Recently Project</h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">These are some of the projects i have completed.</p>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4 items-center justify-center">
               <div className="lg:w-1/3 sm:w-1/2 p-4">
                 <div className="flex relative">
                   <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
