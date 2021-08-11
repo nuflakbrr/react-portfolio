@@ -16,7 +16,7 @@ function About() {
               <img className="lg:w-1/5 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Profile" src={Profile} />
             </Fade>
 
-            <Fade bottom big cascade>
+            <Fade bottom cascade>
               <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-justify">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
                 <p className="mb-8 leading-relaxed">
