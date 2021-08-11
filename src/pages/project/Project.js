@@ -11,14 +11,14 @@ function Project() {
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
           <div className="container px-10 py-24 mx-auto">
-            <Fade bottom cascade>
+            <Fade bottom cascade count={1}>
               <div className="flex flex-col text-center w-full mb-20">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Recently Project</h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">These are some of the projects i have completed.</p>
               </div>
             </Fade>
 
-            <Fade bottom cascade>
+            <Fade bottom cascade count={1}>
               <div className="flex flex-wrap -m-4 items-center justify-center">
                 <div className="lg:w-1/3 sm:w-1/2 p-4 w-5/6">
                   <div className="flex relative">
