@@ -11,6 +11,7 @@ import Card from "./pages/project/projectdetails/Card";
 import ZoomClone from "./pages/project/projectdetails/ZoomClone";
 import RCRPLanding from "./pages/project/projectdetails/RCRPLanding";
 import Pilketos from "./pages/project/projectdetails/Pilketos";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/project/zoom-clone" exact component={ZoomClone} />
         <Route path="/project/rcrp-landing-page" exact component={RCRPLanding} />
         <Route path="/project/pilketos-smktelkom" exact component={Pilketos} />
+        <Route path="/notfound" component={NotFound} />
       </Switch>
     </Router>
   );

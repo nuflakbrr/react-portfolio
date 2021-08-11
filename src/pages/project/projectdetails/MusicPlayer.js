@@ -31,10 +31,18 @@ function MusicPlayer() {
                   </div>
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-justify sm:text-justify">
+                  <p class="leading-relaxed text-lg mb-4">In this project I want to create a free music player website that only plays my favorite songs.</p>
                   <p class="leading-relaxed text-lg mb-4">
-                    Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger
-                    bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo
-                    intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.
+                    <strong>Technology what I use</strong>
+                    <ul className="list-disc list-inside">
+                      <li>HTML</li>
+                    </ul>
+                    <ul className="list-disc list-inside">
+                      <li>SASS</li>
+                    </ul>
+                    <ul className="list-disc list-inside">
+                      <li>JavaScript</li>
+                    </ul>
                   </p>
                   <a href="https://github.com/nuflakbrr/music-player" target="_blank" class="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
