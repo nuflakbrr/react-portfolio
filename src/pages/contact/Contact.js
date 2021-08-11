@@ -2,9 +2,11 @@ import React from "react";
 import Seo from "../../components/Seo";
 import Navbars from "../../components/Navbars";
 import Swal from "sweetalert2";
+import { useHistory } from "react-router-dom";
 import { useForm, ValidationError } from "@formspree/react";
 
 function Contact() {
+  const history = useHistory();
   const [state, handleSubmit] = useForm("xknkqdnj");
 
   if (state.succeeded) {
@@ -15,6 +17,7 @@ function Contact() {
       confirmButtonColor: "#1E40AF",
     });
   }
+
   const RenderContact = () => {
     return (
       <React.Fragment>
