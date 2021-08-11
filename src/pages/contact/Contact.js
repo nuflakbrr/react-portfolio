@@ -35,72 +35,70 @@ function Contact() {
 
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
-                <Fade bottom cascade>
-                  <form onSubmit={handleSubmit} className="mx-auto flex flex-wrap -m-2">
-                    <div className="p-2 w-1/2">
-                      <div className="relative">
-                        <label for="name" className="leading-7 text-sm text-gray-400">
-                          Name
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
-                      </div>
+                <form onSubmit={handleSubmit} className="mx-auto flex flex-wrap -m-2">
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label for="name" className="leading-7 text-sm text-gray-400">
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
                     </div>
-                    <div className="p-2 w-1/2">
-                      <div className="relative">
-                        <label for="email" className="leading-7 text-sm text-gray-400">
-                          Email
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
+                  </div>
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label for="email" className="leading-7 text-sm text-gray-400">
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
 
-                        {/* error */}
-                        <ValidationError prefix="Email" field="email" errors={state.errors} />
-                      </div>
+                      {/* error */}
+                      <ValidationError prefix="Email" field="email" errors={state.errors} />
                     </div>
-                    <div className="p-2 w-full">
-                      <div className="relative">
-                        <label for="subject" className="leading-7 text-sm text-gray-400">
-                          Subject
-                        </label>
-                        <input
-                          type="subject"
-                          id="subject"
-                          name="subject"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
-                      </div>
+                  </div>
+                  <div className="p-2 w-full">
+                    <div className="relative">
+                      <label for="subject" className="leading-7 text-sm text-gray-400">
+                        Subject
+                      </label>
+                      <input
+                        type="subject"
+                        id="subject"
+                        name="subject"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
                     </div>
-                    <div className="p-2 w-full">
-                      <div className="relative">
-                        <label for="message" className="leading-7 text-sm text-gray-400">
-                          Message
-                        </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                        />
+                  </div>
+                  <div className="p-2 w-full">
+                    <div className="relative">
+                      <label for="message" className="leading-7 text-sm text-gray-400">
+                        Message
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      />
 
-                        {/* error */}
-                        <ValidationError prefix="Message" field="message" errors={state.errors} />
-                      </div>
+                      {/* error */}
+                      <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
-                    <div className="p-2 w-full">
-                      <button type="submit" disabled={state.submitting} className={`${state.submitting && "cursor-not-allowed"} flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg`}>
-                        {state.submitting ? "Waiting.." : "Submit!"}
-                      </button>
-                    </div>
-                  </form>
-                </Fade>
+                  </div>
+                  <div className="p-2 w-full">
+                    <button type="submit" disabled={state.submitting} className={`${state.submitting && "cursor-not-allowed"} flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg`}>
+                      {state.submitting ? "Waiting.." : "Submit!"}
+                    </button>
+                  </div>
+                </form>
 
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                   <a className="text-blue-400" href="mailto:naufalakbar378@gmail.com">
