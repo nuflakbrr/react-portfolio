@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Seo from "../../components/Seo";
 import Navbars from "../../components/Navbars";
 import Swal from "sweetalert2";
@@ -10,14 +10,16 @@ function Contact() {
   const history = useHistory();
   const [state, handleSubmit] = useForm("xknkqdnj");
 
-  if (state.succeeded) {
-    return Swal.fire({
-      title: "Thank You!",
-      text: "Your message will be deliver soon!",
-      icon: "success",
-      confirmButtonColor: "#1E40AF",
-    });
-  }
+  useEffect(() => {
+    if (state.succeeded) {
+      Swal.fire({
+        title: "Thank You!",
+        text: "Your message will be deliver soon!",
+        icon: "success",
+        confirmButtonColor: "#1E40AF",
+      });
+    }
+  }, [state]);
 
   const RenderContact = () => {
     return (
@@ -93,8 +95,8 @@ function Contact() {
                       </div>
                     </div>
                     <div className="p-2 w-full">
-                      <button type="submit" disabled={state.submitting} className="flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
-                        Submit!
+                      <button type="submit" disabled={state.submitting} className={`${state.submitting && "cursor-not-allowed"} flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg`}>
+                        {state.submitting ? "Waiting.." : "Submit!"}
                       </button>
                     </div>
                   </form>
