@@ -38,7 +38,7 @@ function Contact() {
                 <form onSubmit={handleSubmit} className="mx-auto flex flex-wrap -m-2">
                   <div className="p-2 w-1/2">
                     <div className="relative">
-                      <label for="name" className="leading-7 text-sm text-gray-400">
+                      <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                         Name
                       </label>
                       <input
@@ -51,7 +51,7 @@ function Contact() {
                   </div>
                   <div className="p-2 w-1/2">
                     <div className="relative">
-                      <label for="email" className="leading-7 text-sm text-gray-400">
+                      <label htmlFor="email" className="leading-7 text-sm text-gray-400">
                         Email
                       </label>
                       <input
@@ -67,7 +67,7 @@ function Contact() {
                   </div>
                   <div className="p-2 w-full">
                     <div className="relative">
-                      <label for="subject" className="leading-7 text-sm text-gray-400">
+                      <label htmlFor="subject" className="leading-7 text-sm text-gray-400">
                         Subject
                       </label>
                       <input
@@ -80,7 +80,7 @@ function Contact() {
                   </div>
                   <div className="p-2 w-full">
                     <div className="relative">
-                      <label for="message" className="leading-7 text-sm text-gray-400">
+                      <label htmlFor="message" className="leading-7 text-sm text-gray-400">
                         Message
                       </label>
                       <textarea
