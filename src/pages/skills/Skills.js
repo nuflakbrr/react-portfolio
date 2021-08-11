@@ -25,7 +25,7 @@ function Skills() {
         <section className="text-gray-400 bg-gray-900 body-font">
           <div className="container px-10 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="text-2xl font-medium title-font mb-4 text-white">Knowledge & Skills</h1>
+              <h1 className="text-3xl font-medium title-font mb-4 text-white">Knowledge & Skills</h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Here's some knowledge in few of programming languages and tools I use.</p>
             </div>
 
