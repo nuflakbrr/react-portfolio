@@ -409,12 +409,13 @@ function Skills() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Knowledge & Skills | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderSkills />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 

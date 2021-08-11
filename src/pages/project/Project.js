@@ -130,12 +130,13 @@ function Project() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Recently Project | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderProject />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 

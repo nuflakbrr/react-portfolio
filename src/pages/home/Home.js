@@ -42,12 +42,13 @@ function Home() {
   };
 
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"My Portfolio Website | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderHero />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 

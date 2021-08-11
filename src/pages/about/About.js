@@ -72,12 +72,13 @@ function About() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"About Me | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderAbout />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
