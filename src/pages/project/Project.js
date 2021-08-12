@@ -67,7 +67,7 @@ function Project() {
                       <p className="leading-relaxed">Create a 3D Animation Card Product.</p>
                       <Link to="/project/3d-card-animation" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
-                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
@@ -84,7 +84,7 @@ function Project() {
                       <p className="leading-relaxed">Create a Zoom Clone.</p>
                       <Link to="/project/zoom-clone" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
-                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
@@ -101,7 +101,7 @@ function Project() {
                       <p className="leading-relaxed">Create a RCRP Website with React.</p>
                       <Link to="/project/rcrp-landing-page" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
-                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
@@ -118,7 +118,7 @@ function Project() {
                       <p className="leading-relaxed">Create a E-Voting for SMK Telkom Malang with React.</p>
                       <Link to="/project/pilketos-smktelkom" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
-                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
