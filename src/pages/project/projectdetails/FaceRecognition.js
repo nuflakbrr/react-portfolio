@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
+import FaceBes from "../../images/pro-facBes.jpg";
+import { Link } from "react-router-dom";
 
 function FaceRecognition() {
   const RenderFace = () => {
@@ -11,8 +12,8 @@ function FaceRecognition() {
         <section className="text-gray-400 bg-gray-900 body-font">
           <div className="container px-5 py-24 mx-auto flex flex-col">
             <div className="lg:w-4/6 mx-auto">
-              <div className="rounded-lg h-64 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500" />
+              <div className="rounded-lg overflow-hidden">
+                <img alt="content" className="object-cover object-center h-full w-full" src={FaceBes} />
               </div>
               <div className="flex flex-col sm:flex-row mt-10">
                 <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
