@@ -1,8 +1,8 @@
-import React from "react";
-import Seo from "../../components/Seo";
-import Navbars from "../../components/Navbars";
+import React, { useEffect } from "react";
 import Swal from "sweetalert2";
 import Fade from "react-reveal/Fade";
+import Seo from "../../components/Seo";
+import Navbars from "../../components/Navbars";
 import { useHistory } from "react-router-dom";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -10,14 +10,16 @@ function Contact() {
   const history = useHistory();
   const [state, handleSubmit] = useForm("xknkqdnj");
 
-  if (state.succeeded) {
-    return Swal.fire({
-      title: "Thank You!",
-      text: "Your message will be deliver soon!",
-      icon: "success",
-      confirmButtonColor: "#1E40AF",
-    });
-  }
+  useEffect(() => {
+    if (state.succeeded) {
+      Swal.fire({
+        title: "Thank You!",
+        text: "Your message will be deliver soon!",
+        icon: "success",
+        confirmButtonColor: "#1E40AF",
+      });
+    }
+  }, [state]);
 
   const RenderContact = () => {
     return (
@@ -33,72 +35,70 @@ function Contact() {
 
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
-                <Fade bottom cascade>
-                  <form onSubmit={handleSubmit} className="mx-auto flex flex-wrap -m-2">
-                    <div className="p-2 w-1/2">
-                      <div className="relative">
-                        <label for="name" className="leading-7 text-sm text-gray-400">
-                          Name
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
-                      </div>
+                <form onSubmit={handleSubmit} className="mx-auto flex flex-wrap -m-2">
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
                     </div>
-                    <div className="p-2 w-1/2">
-                      <div className="relative">
-                        <label for="email" className="leading-7 text-sm text-gray-400">
-                          Email
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
+                  </div>
+                  <div className="p-2 w-1/2">
+                    <div className="relative">
+                      <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
 
-                        {/* error */}
-                        <ValidationError prefix="Email" field="email" errors={state.errors} />
-                      </div>
+                      {/* error */}
+                      <ValidationError prefix="Email" field="email" errors={state.errors} />
                     </div>
-                    <div className="p-2 w-full">
-                      <div className="relative">
-                        <label for="subject" className="leading-7 text-sm text-gray-400">
-                          Subject
-                        </label>
-                        <input
-                          type="subject"
-                          id="subject"
-                          name="subject"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        />
-                      </div>
+                  </div>
+                  <div className="p-2 w-full">
+                    <div className="relative">
+                      <label htmlFor="subject" className="leading-7 text-sm text-gray-400">
+                        Subject
+                      </label>
+                      <input
+                        type="subject"
+                        id="subject"
+                        name="subject"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      />
                     </div>
-                    <div className="p-2 w-full">
-                      <div className="relative">
-                        <label for="message" className="leading-7 text-sm text-gray-400">
-                          Message
-                        </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                        />
+                  </div>
+                  <div className="p-2 w-full">
+                    <div className="relative">
+                      <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+                        Message
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-blue-500 focus:bg-gray-900 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      />
 
-                        {/* error */}
-                        <ValidationError prefix="Message" field="message" errors={state.errors} />
-                      </div>
+                      {/* error */}
+                      <ValidationError prefix="Message" field="message" errors={state.errors} />
                     </div>
-                    <div className="p-2 w-full">
-                      <button type="submit" disabled={state.submitting} className="flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
-                        Submit!
-                      </button>
-                    </div>
-                  </form>
-                </Fade>
+                  </div>
+                  <div className="p-2 w-full">
+                    <button type="submit" disabled={state.submitting} className={`${state.submitting && "cursor-not-allowed"} flex mx-auto text-white bg-blue-800 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg`}>
+                      {state.submitting ? "Waiting.." : "Submit!"}
+                    </button>
+                  </div>
+                </form>
 
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                   <a className="text-blue-400" href="mailto:naufalakbar378@gmail.com">
@@ -112,19 +112,19 @@ function Contact() {
                       </svg>
                     </a>
                     <a className="ml-3 text-gray-400" href="https://www.instagram.com/kbrnugroho/" target="_blank">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                       </svg>
                     </a>
                     <a className="ml-3 text-gray-400" href="https://www.linkedin.com/public-profile/in/nuflakbrr" target="_blank">
-                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+                      <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" className="w-5 h-5" viewBox="0 0 24 24">
                         <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                         <circle cx="4" cy="4" r="2" stroke="none"></circle>
                       </svg>
                     </a>
                     <a className="ml-3 text-gray-400" href="mailto:naufalakbar378@gmail.com" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                       </svg>
@@ -139,11 +139,12 @@ function Contact() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Lets Talk | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderContact />
-    </>
+      <div className="flex-grow bg-gray-900"></div>
+    </div>
   );
 }
 

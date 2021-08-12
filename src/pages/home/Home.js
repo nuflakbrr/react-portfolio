@@ -1,9 +1,9 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 import Profile from "../images/profile.jpg";
-import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -12,13 +12,13 @@ function Home() {
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
           <div className="container mx-auto flex px-20 py-28 md:flex-row flex-col items-center">
-            <Fade>
+            <Fade count={1}>
               <div className="lg:max-w-md lg:w-full md:w-1/2 w-6/6 mb-10 md:mb-0">
                 <img className="object-cover object-center rounded animate__animated animate__fadeInLeft" alt="hero" src={Profile} />
               </div>
             </Fade>
 
-            <Fade bottom cascade>
+            <Fade bottom cascade count={1}>
               <div className="lg:flex-grow md:w-/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                   Hi!
@@ -42,12 +42,13 @@ function Home() {
   };
 
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"My Portfolio Website | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderHero />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 

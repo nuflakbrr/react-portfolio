@@ -1,9 +1,9 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 import Profile from "../images/profile.jpg";
-import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
               <img className="lg:w-1/5 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="Profile" src={Profile} />
             </Fade>
 
-            <Fade bottom big cascade>
+            <Fade bottom cascade>
               <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-justify">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
                 <p className="mb-8 leading-relaxed">
@@ -25,7 +25,7 @@ function About() {
                   <br />
                   At SMK Telkom Malang there are many things I can do, such as character education, discipline, and many other things. Apart from that, I also studied Graphic Design, some programming languages, Website Design, and Website
                   Development. I am very grateful to be part of the SMK Telkom Malang family, because I understand about the world of technology. For now I am exploring the programming languages Java, HTML, CSS, Vanilla JavaScript, Node.js,
-                  React, and{" "}
+                  React.js, and{" "}
                   <Link to="/skill" className="text-blue-400 hover:text-blue-600">
                     many more.
                   </Link>
@@ -45,13 +45,13 @@ function About() {
                       </svg>
                     </a>
                     <a className="ml-3 text-gray-400" href="https://www.instagram.com/kbrnugroho/" target="_blank">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                       </svg>
                     </a>
                     <a className="ml-3 text-gray-400" href="https://www.linkedin.com/public-profile/in/nuflakbrr" target="_blank">
-                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+                      <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" className="w-5 h-5" viewBox="0 0 24 24">
                         <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                         <circle cx="4" cy="4" r="2" stroke="none"></circle>
                       </svg>
@@ -72,12 +72,13 @@ function About() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"About Me | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderAbout />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
