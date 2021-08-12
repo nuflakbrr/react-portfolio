@@ -60,12 +60,13 @@ function FaceRecognition() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Face Recognition | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderFace />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
