@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
@@ -16,7 +17,6 @@ import Node from "../images/ski-node.png";
 import react from "../images/ski-react.png";
 import PHP from "../images/ski-php.png";
 import SQL from "../images/ski-sql.png";
-import Fade from "react-reveal/Fade";
 
 function Skills() {
   const RenderSkills = () => {

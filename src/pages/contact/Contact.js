@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Seo from "../../components/Seo";
-import Navbars from "../../components/Navbars";
 import Swal from "sweetalert2";
 import Fade from "react-reveal/Fade";
+import Seo from "../../components/Seo";
+import Navbars from "../../components/Navbars";
 import { useHistory } from "react-router-dom";
 import { useForm, ValidationError } from "@formspree/react";
 

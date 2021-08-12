@@ -1,9 +1,9 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import Seo from "../../components/Seo";
 import Footer from "../../components/Footer";
 import Navbars from "../../components/Navbars";
 import Profile from "../images/profile.jpg";
-import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
 function About() {
