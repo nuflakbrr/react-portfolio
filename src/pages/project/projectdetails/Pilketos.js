@@ -56,12 +56,13 @@ function Pilketos() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Pilketos SMK Telkom Malang | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderPil />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
