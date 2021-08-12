@@ -60,12 +60,13 @@ function ZoomClone() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Zoom Clone | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderZoom />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
