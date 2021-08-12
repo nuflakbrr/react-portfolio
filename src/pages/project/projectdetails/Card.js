@@ -60,12 +60,13 @@ function Card() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"3D Card Animation | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderCard />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
