@@ -56,12 +56,13 @@ function RCRPLanding() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"RCRP Landing Page | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderRCRP />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
