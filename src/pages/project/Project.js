@@ -27,7 +27,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 01</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">Music Player</h1>
                       <p className="leading-relaxed">Create a Music Player Website.</p>
-                      <Link to="/project/music-player" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/music-player" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
@@ -44,7 +44,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 02</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">Face Recognition</h1>
                       <p className="leading-relaxed">Create a Face Recognition.</p>
-                      <Link to="/project/face-recognition" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/face-recognition" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
@@ -61,7 +61,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 03</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">3D Card Animation</h1>
                       <p className="leading-relaxed">Create a 3D Animation Card Product.</p>
-                      <Link to="/project/3d-card-animation" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/3d-card-animation" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
@@ -78,7 +78,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 04</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">Zoom Clone</h1>
                       <p className="leading-relaxed">Create a Zoom Clone.</p>
-                      <Link to="/project/zoom-clone" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/zoom-clone" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
@@ -95,7 +95,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 05</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">RCRP Landing Page</h1>
                       <p className="leading-relaxed">Create a RCRP Website with React.</p>
-                      <Link to="/project/rcrp-landing-page" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/rcrp-landing-page" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
@@ -112,7 +112,7 @@ function Project() {
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 06</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">E-Voting SMK Telkom Malang</h1>
                       <p className="leading-relaxed">Create a E-Voting for SMK Telkom Malang with React.</p>
-                      <Link to="/project/pilketos-smktelkom" class="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
+                      <Link to="/project/pilketos-smktelkom" className="text-blue-600 inline-flex items-center mt-5 hover:text-blue-400">
                         Learn More
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M5 12h14"></path>
