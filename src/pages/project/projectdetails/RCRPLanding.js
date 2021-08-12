@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
+import { Link } from "react-router-dom";
 
 function RCRPLanding() {
   const RenderRCRP = () => {
