@@ -60,12 +60,13 @@ function MusicPlayer() {
     );
   };
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Seo title={"Music Player | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderMusic />
+      <div className="flex-grow bg-gray-900"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
