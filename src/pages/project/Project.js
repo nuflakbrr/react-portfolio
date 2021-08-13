@@ -7,7 +7,7 @@ import Music from "../images/pro-mus.jpg";
 import Face from "../images/pro-fac.jpg";
 import Tridi from "../images/pro-3d.jpg";
 import Zoom from "../images/pro-zoom.jpg";
-import RCRP from "../images/pro-pil.jpg";
+import RCRP from "../images/pro-rcrp.jpg";
 import Pilketos from "../images/pro-pil.jpg";
 import { Link } from "react-router-dom";
 

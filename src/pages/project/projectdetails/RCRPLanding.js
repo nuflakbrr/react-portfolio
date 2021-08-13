@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
+import RCRPBes from "../../images/pro-rcrpBes.jpg";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
@@ -12,8 +13,8 @@ function RCRPLanding() {
         <section className="text-gray-400 bg-gray-900 body-font">
           <div className="container px-5 py-24 mx-auto flex flex-col">
             <div className="lg:w-4/6 mx-auto">
-              <div className="rounded-lg h-64 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500" />
+              <div className="rounded-lg overflow-hidden">
+                <img alt="content" className="object-cover object-center h-full w-full" src={RCRPBes} />
               </div>
               <div className="flex flex-col sm:flex-row mt-10">
                 <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -33,7 +34,7 @@ function RCRPLanding() {
                   </div>
                 </div>
                 <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-justify sm:text-justify">
-                  <p className="leading-relaxed text-lg mb-4">In this project I contributed to creating a landing page for the Republic City Roleplay website.</p>
+                  <p className="leading-relaxed text-lg mb-4">In this project I contributed to creating a landing page for the Republic City Roleplay website on frontend section.</p>
                   <p className="leading-relaxed text-lg mb-4">
                     <strong>Technology what I use</strong>
                     <ul className="list-disc list-inside">
