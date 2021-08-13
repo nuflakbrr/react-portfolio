@@ -38,7 +38,7 @@ function RCRPLanding() {
                   <p className="leading-relaxed text-lg mb-4">
                     <strong>Technology what I use</strong>
                     <ul className="list-disc list-inside">
-                      <li>React</li>
+                      <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
                       <li>CSS</li>
@@ -60,7 +60,7 @@ function RCRPLanding() {
   };
   return (
     <div className="flex flex-col h-screen">
-      <Seo title={"RCRP Landing Page | Naufal Akbar Nugroho"} />
+      <Seo title={"React Quiz App | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderRCRP />
       <div className="flex-grow bg-gray-900"></div>
