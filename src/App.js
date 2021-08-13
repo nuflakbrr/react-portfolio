@@ -9,7 +9,7 @@ import MusicPlayer from "./pages/project/projectdetails/MusicPlayer";
 import FaceRecognition from "./pages/project/projectdetails/FaceRecognition";
 import Card from "./pages/project/projectdetails/Card";
 import ZoomClone from "./pages/project/projectdetails/ZoomClone";
-import RCRPLanding from "./pages/project/projectdetails/RCRPLanding";
+import Quiz from "./pages/project/projectdetails/QuizApp";
 import Pilketos from "./pages/project/projectdetails/Pilketos";
 import NotFound from "./components/NotFound";
 
@@ -26,7 +26,7 @@ function App() {
         <Route path="/project/face-recognition" exact component={FaceRecognition} />
         <Route path="/project/3d-card-animation" exact component={Card} />
         <Route path="/project/zoom-clone" exact component={ZoomClone} />
-        <Route path="/project/rcrp-landing-page" exact component={RCRPLanding} />
+        <Route path="/project/quiz-app" exact component={Quiz} />
         <Route path="/project/pilketos-smktelkom" exact component={Pilketos} />
         <Route path="/notfound" component={NotFound} />
       </Switch>

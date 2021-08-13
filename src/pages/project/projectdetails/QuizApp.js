@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
-import RCRPBes from "../../images/pro-rcrpBes.jpg";
+import RCRPBes from "../../images/pro-quizBes.jpg";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ function RCRPLanding() {
                   </div>
                 </div>
                 <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-justify sm:text-justify">
-                  <p className="leading-relaxed text-lg mb-4">In this project I contributed to creating a landing page for the Republic City Roleplay website on frontend section.</p>
+                  <p className="leading-relaxed text-lg mb-4">In this project I want to create a quiz app website for science practice with React.js</p>
                   <p className="leading-relaxed text-lg mb-4">
                     <strong>Technology what I use</strong>
                     <ul className="list-disc list-inside">
