@@ -7,6 +7,7 @@ import Music from "../images/pro-mus.jpg";
 import Face from "../images/pro-fac.jpg";
 import Tridi from "../images/pro-3d.jpg";
 import Zoom from "../images/pro-zoom.jpg";
+import RCRP from "../images/pro-pil.jpg";
 import Pilketos from "../images/pro-pil.jpg";
 import { Link } from "react-router-dom";
 
@@ -95,7 +96,7 @@ function Project() {
                 </div>
                 <div className="lg:w-1/3 sm:w-1/2 p-4 w-5/6">
                   <div className="flex relative">
-                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/604x364" />
+                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={RCRP} />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-blue-400 mb-1">PROJECT 05</h2>
                       <h1 className="title-font text-md font-medium text-white mb-3">RCRP Landing Page</h1>
