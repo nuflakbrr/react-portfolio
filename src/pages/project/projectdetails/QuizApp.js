@@ -44,12 +44,12 @@ function RCRPLanding() {
                       <li>CSS</li>
                     </ul>
                   </p>
-                  <a href="https://github.com/rahmatagungj/rcrp-landingpage" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
+                  <a href="https://github.com/nuflakbrr/react-quiz" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <Link to="/notfound" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
+                  <a href="https://nuflakbrr-quiz.vercel.app/" target="_blank" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
