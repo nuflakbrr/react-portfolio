@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
-import RCRPBes from "../../images/pro-rcrpBes.jpg";
+import RCRPBes from "../../images/pro-quizBes.jpg";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
@@ -34,22 +34,22 @@ function RCRPLanding() {
                   </div>
                 </div>
                 <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-justify sm:text-justify">
-                  <p className="leading-relaxed text-lg mb-4">In this project I contributed to creating a landing page for the Republic City Roleplay website on frontend section.</p>
+                  <p className="leading-relaxed text-lg mb-4">In this project I want to create a quiz app website for science practice. I create this with React.js</p>
                   <p className="leading-relaxed text-lg mb-4">
                     <strong>Technology what I use</strong>
                     <ul className="list-disc list-inside">
-                      <li>React</li>
+                      <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
                       <li>CSS</li>
                     </ul>
                   </p>
-                  <a href="https://github.com/rahmatagungj/rcrp-landingpage" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
+                  <a href="https://github.com/nuflakbrr/react-quiz" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <Link to="/notfound" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
+                  <a href="https://nuflakbrr-quiz.vercel.app/" target="_blank" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ function RCRPLanding() {
   };
   return (
     <div className="flex flex-col h-screen">
-      <Seo title={"RCRP Landing Page | Naufal Akbar Nugroho"} />
+      <Seo title={"React Quiz App | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderRCRP />
       <div className="flex-grow bg-gray-900"></div>
