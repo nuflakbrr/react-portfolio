@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
-import RCRPBes from "../../images/pro-quizBes.jpg";
+import RCRPBes from "../../images/pro-quizBes.gif";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
