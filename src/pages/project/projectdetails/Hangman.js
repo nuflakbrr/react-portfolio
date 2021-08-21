@@ -7,7 +7,7 @@ import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
 function Hangman() {
-  const RenderCard = () => {
+  const RenderHangman = () => {
     return (
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -62,7 +62,7 @@ function Hangman() {
     <div className="flex flex-col h-screen">
       <Seo title={"React Hangman Games | Naufal Akbar Nugroho"} />
       <Navbars />
-      <RenderCard />
+      <RenderHangman />
       <div className="flex-grow bg-gray-900"></div>
       <Footer />
     </div>
