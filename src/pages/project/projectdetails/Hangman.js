@@ -6,7 +6,7 @@ import TridiBes from "../../images/pro-3dBes.jpg";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
-function Card() {
+function Hangman() {
   const RenderCard = () => {
     return (
       <React.Fragment>
@@ -63,7 +63,7 @@ function Card() {
   };
   return (
     <div className="flex flex-col h-screen">
-      <Seo title={"3D Card Animation | Naufal Akbar Nugroho"} />
+      <Seo title={"React Hangman Games | Naufal Akbar Nugroho"} />
       <Navbars />
       <RenderCard />
       <div className="flex-grow bg-gray-900"></div>
@@ -72,4 +72,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Hangman;
