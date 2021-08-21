@@ -21,7 +21,7 @@ function Pilketos() {
                   <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
                     <div className="avatar">
                       <div className="rounded-full w-18 h-18">
-                        <img src={Profile} />
+                        <img src={Profile} alt="project img" />
                       </div>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ function Pilketos() {
                       <li>CSS</li>
                     </ul>
                   </p>
-                  <a href="https://github.com/nuflakbrr/E-Voting-SMK-Telkom-Malang" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
+                  <a href="https://github.com/nuflakbrr/E-Voting-SMK-Telkom-Malang" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
                   <Link to="/notfound" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
