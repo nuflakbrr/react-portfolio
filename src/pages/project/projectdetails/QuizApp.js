@@ -6,8 +6,8 @@ import RCRPBes from "../../images/pro-quizBes.gif";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
-function RCRPLanding() {
-  const RenderRCRP = () => {
+function QuizApp() {
+  const RenderQuiz = () => {
     return (
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -41,7 +41,7 @@ function RCRPLanding() {
                       <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
-                      <li>CSS</li>
+                      <li>SASS</li>
                     </ul>
                   </p>
                   <a href="https://github.com/nuflakbrr/react-quiz" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
@@ -62,11 +62,11 @@ function RCRPLanding() {
     <div className="flex flex-col h-screen">
       <Seo title={"React Quiz App | Naufal Akbar Nugroho"} />
       <Navbars />
-      <RenderRCRP />
+      <RenderQuiz />
       <div className="flex-grow bg-gray-900"></div>
       <Footer />
     </div>
   );
 }
 
-export default RCRPLanding;
+export default QuizApp;

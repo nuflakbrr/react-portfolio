@@ -7,7 +7,7 @@ import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
 function SpeedTest() {
-  const RenderCard = () => {
+  const RenderSpeed = () => {
     return (
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -62,7 +62,7 @@ function SpeedTest() {
     <div className="flex flex-col h-screen">
       <Seo title={"React Website Speed Test | Naufal Akbar Nugroho"} />
       <Navbars />
-      <RenderCard />
+      <RenderSpeed />
       <div className="flex-grow bg-gray-900"></div>
       <Footer />
     </div>
