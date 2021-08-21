@@ -47,10 +47,10 @@ function Hangman() {
                       <li>JavaScript</li>
                     </ul>
                   </p>
-                  <a href="https://github.com/nuflakbrr/3d-animation-card" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
+                  <a href="https://github.com/nuflakbrr/react-hangman" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <a href="https://nuflakbrr.github.io/3d-animation-card/" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
+                  <a href="https://nuflakbrr-hangman.vercel.app/" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
                   </a>
                 </div>
