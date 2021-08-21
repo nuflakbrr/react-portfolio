@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../../../components/Footer";
 import Navbars from "../../../components/Navbars";
 import Seo from "../../../components/Seo";
-import RCRPBes from "../../images/pro-quizBes.jpg";
+import RCRPBes from "../../images/pro-quizBes.gif";
 import Profile from "../../images/profile.jpg";
 import { Link } from "react-router-dom";
 
-function RCRPLanding() {
-  const RenderRCRP = () => {
+function QuizApp() {
+  const RenderQuiz = () => {
     return (
       <React.Fragment>
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -21,7 +21,7 @@ function RCRPLanding() {
                   <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
                     <div className="avatar">
                       <div className="rounded-full w-18 h-18">
-                        <img src={Profile} />
+                        <img src={Profile} alt="project img" />
                       </div>
                     </div>
                   </div>
@@ -41,13 +41,13 @@ function RCRPLanding() {
                       <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
-                      <li>CSS</li>
+                      <li>SASS</li>
                     </ul>
                   </p>
-                  <a href="https://github.com/nuflakbrr/react-quiz" target="_blank" className="text-blue-600 inline-flex items-center hover:text-blue-400">
+                  <a href="https://github.com/nuflakbrr/react-quiz" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <a href="https://nuflakbrr-quiz.vercel.app/" target="_blank" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
+                  <a href="https://nuflakbrr-quiz.vercel.app/" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
                   </a>
                 </div>
@@ -62,11 +62,11 @@ function RCRPLanding() {
     <div className="flex flex-col h-screen">
       <Seo title={"React Quiz App | Naufal Akbar Nugroho"} />
       <Navbars />
-      <RenderRCRP />
+      <RenderQuiz />
       <div className="flex-grow bg-gray-900"></div>
       <Footer />
     </div>
   );
 }
 
-export default RCRPLanding;
+export default QuizApp;
