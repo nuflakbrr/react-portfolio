@@ -41,6 +41,9 @@ function Hangman() {
                       <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
+                      <li>Sweetalert 2</li>
+                    </ul>
+                    <ul className="list-disc list-inside">
                       <li>SASS</li>
                     </ul>
                   </p>
