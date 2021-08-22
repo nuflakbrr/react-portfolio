@@ -41,7 +41,7 @@ function Pilketos() {
                       <li>React.js</li>
                     </ul>
                     <ul className="list-disc list-inside">
-                      <li>CSS</li>
+                      <li>Tailwindcss</li>
                     </ul>
                   </p>
                   <a href="https://github.com/nuflakbrr/E-Voting-SMK-Telkom-Malang" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
