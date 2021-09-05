@@ -6,16 +6,20 @@ function NotFound() {
   return (
     <div className="bg-gray-900 relative overflow-hidden h-screen">
       <Seo title={"Not Found"} />
-      <div className="inset-0 bg-black opacity-25 absolute"></div>
-      <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
-        <div className="w-full font-mono flex flex-col items-center relative z-10">
-          <h1 className="font-extrabold text-5xl text-center text-white leading-tight mt-4">Oops!, This page under construction</h1>
-          <p className="font-extrabold text-8xl my-44 text-white">404</p>
-          <Link to="/" className="text-white underline hover:text-blue-500">
-            Back to Home
-          </Link>
+      <section className="flex items-center h-screen p-16 bg-gray-900 dark:bg-coolGray-900 dark:text-coolGray-100">
+        <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+          <div className="max-w-md text-center text-white">
+            <h2 className="mb-8 font-extrabold text-9xl dark:text-coolGray-600">
+              <span className="sr-only">Error</span>404
+            </h2>
+            <p className="text-2xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
+            <p className="mt-4 mb-8 dark:text-coolGray-400">But dont worry, you can find plenty of other things on our homepage.</p>
+            <Link to="/" className="px-8 py-3 font-semibold rounded hover:text-blue-600 dark:bg-lightBlue-400 dark:text-coolGray-900">
+              Back to homepage
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
