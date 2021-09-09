@@ -14,7 +14,7 @@ function Home() {
           <div className="container mx-auto flex px-20 py-28 md:flex-row flex-col items-center">
             <Fade count={1}>
               <div className="lg:max-w-md lg:w-full md:w-1/2 w-6/6 mb-10 md:mb-0">
-                <img className="object-cover object-center rounded animate__animated animate__fadeInLeft" alt="hero" src={Profile} />
+                <img className="object-cover object-center rounded animate__animated animate__fadeInLeft" alt="Profile Image" src={Profile} />
               </div>
             </Fade>
 
