@@ -100,7 +100,7 @@ function Navbars() {
                           </Link>
                         </li>
                         <li>
-                          <Link to="/notfound" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
+                          <Link to="/notfound" className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-primary-focus">
                             Blog
                           </Link>
                         </li>
