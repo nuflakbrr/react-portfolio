@@ -34,6 +34,11 @@ function Navbars() {
                 </Link>
               </li>
               <li>
+                <Link to="/notfound" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
                   Contact
                 </Link>
@@ -92,6 +97,11 @@ function Navbars() {
                         <li>
                           <Link to="/project" className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-primary-focus">
                             Project
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/notfound" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
+                            Blog
                           </Link>
                         </li>
                         <li>
