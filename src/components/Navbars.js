@@ -34,7 +34,7 @@ function Navbars() {
                 </Link>
               </li>
               <li>
-                <Link to="/notfound" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
+                <Link to="/blog" className="tracking-wide text-gray-100 transition-colors duration-200 hover:text-gray-300">
                   Blog
                 </Link>
               </li>
@@ -100,7 +100,7 @@ function Navbars() {
                           </Link>
                         </li>
                         <li>
-                          <Link to="/notfound" className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-primary-focus">
+                          <Link to="/blog" className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-primary-focus">
                             Blog
                           </Link>
                         </li>

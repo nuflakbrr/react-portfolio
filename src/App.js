@@ -34,7 +34,8 @@ function App() {
         <Route path="/project/hangman" exact component={Hangman} />
         <Route path="/project/markdown-previewer" exact component={Markdown} />
         <Route path="/project/github-user-card" exact component={Github} />
-        <Route path="/notfound" component={NotFound} />
+        <Route path="/404" component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );
