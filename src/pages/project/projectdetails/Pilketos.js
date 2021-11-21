@@ -47,7 +47,7 @@ function Pilketos() {
                   <a href="https://github.com/nuflakbrr/E-Voting-SMK-Telkom-Malang" target="_blank" rel="noreferrer" className="text-blue-600 inline-flex items-center hover:text-blue-400">
                     Source Code
                   </a>
-                  <Link to="/notfound" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
+                  <Link to="/404" className="text-blue-600 inline-flex items-center ml-4 hover:text-blue-400">
                     Webpage
                   </Link>
                 </div>
